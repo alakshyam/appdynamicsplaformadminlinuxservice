@@ -27,8 +27,8 @@ chmod +x platform-admin-service
 # Description:       This is an AppDynamics enteprise Console Service for Linux.
 ### END INIT INFO
 
-HOME=/apm/appdynamics/platform/platform-admin
-RUNAS=appadmin
+HOME=/<Path>/appdynamics/platform/platform-admin
+RUNAS=<Linux User that has permission to run enterprise console>
 
 PIDFILE=$HOME/platform-admin.pid
 PORT=9191
