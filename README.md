@@ -11,9 +11,9 @@ cp platform-admin-service /etc/init.d/
 chmod +x platform-admin-service
 ```
 2. Modify the init info or accept default as per your architecture. The following variables should be looked into
-HOME - Path to the enterprise console platform admin home directory
-RUNAS - User account which is used to install and run enterprise console
-PORT - https/http port number of enterprise console
+* HOME - Path to the enterprise console platform admin home directory
+* RUNAS - User account which is used to install and run enterprise console
+* PORT - https/http port number of enterprise console
 
 ```
 #!/bin/sh
