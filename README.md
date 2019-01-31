@@ -86,3 +86,37 @@ case "$1" in
     echo "Usage: $0 {start|stop|restart|status}"
 esac
 ```
+3. Service Commands
+   - Service Status
+   ```
+   	[<UserName>@<Hostname> ~]$ service platform-admin-service status
+   	Ping Enterprise Console Version URI
+	{"version":"4.5.5.16839","build":"16839"}
+	Service is running
+	[<UserName>@<Hostname> ~]$
+   ```
+   - Service Stop
+   ```
+   	[<UserName>@<Hostname> ~]$ service platform-admin-service stop
+	Stopping service…
+	Attempting to stop process with id [30543]...
+	.
+	***** Enterprise Console application stopped *****
+	..
+	***** Enterprise Console Database stopped *****
+	Service stopped
+	[<UserName>@<Hostname> ~]$
+   ```
+   - Service Start
+   ```
+   	[<UserName>@<Hostname> ~]$ service platform-admin-service start
+	Starting service…
+	Starting Enterprise Console Database
+	..
+	***** Enterprise Console Database started *****
+	Starting Enterprise Console application
+	Waiting for the Enterprise Console application to start.........
+	***** Enterprise Console application started on port 9191 *****
+	Service started
+	[<UserName>@<Hostname> ~]$
+   ```
