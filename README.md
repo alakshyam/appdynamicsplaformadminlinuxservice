@@ -89,15 +89,15 @@ esac
 3. Service Commands
    - Service Status
    ```
-   	[<UserName>@<Hostname> ~]$ service platform-admin-service status
-   	Ping Enterprise Console Version URI
+   [<UserName>@<Hostname> ~]$ service platform-admin-service status
+   Ping Enterprise Console Version URI
 	{"version":"4.5.5.16839","build":"16839"}
 	Service is running
 	[<UserName>@<Hostname> ~]$
    ```
    - Service Stop
    ```
-   	[<UserName>@<Hostname> ~]$ service platform-admin-service stop
+   [<UserName>@<Hostname> ~]$ service platform-admin-service stop
 	Stopping service…
 	Attempting to stop process with id [30543]...
 	.
@@ -109,7 +109,7 @@ esac
    ```
    - Service Start
    ```
-   	[<UserName>@<Hostname> ~]$ service platform-admin-service start
+   [<UserName>@<Hostname> ~]$ service platform-admin-service start
 	Starting service…
 	Starting Enterprise Console Database
 	..
