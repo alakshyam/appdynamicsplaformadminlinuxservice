@@ -1,5 +1,5 @@
-# appdynamicsplaformadminlinuxservice
-This script can be copied in Linux to run the Enterprise Console as Linux Service
+# Enterprise Console Service for AppDynamics on Linux Platform
+This script can be copied in Linux with modifications to run the Enterprise Console as Linux Service. To ensure that Enterprise Console keeps on running in case of server restart.
 
 ## Pre-requisites
 Make sure that enterprise console is installed on the linux server
