@@ -1,11 +1,11 @@
 # Enterprise Console Service for AppDynamics on Linux Platform
-This script can be copied in Linux with modifications to run the Enterprise Console as Linux Service. To ensure that Enterprise Console keeps on running in case of server restart.
+This script can be copied in Linux with little modifications to run the Enterprise Console as Linux Service. To ensure that Enterprise Console keeps on running in case of server restart.
 
 ## Pre-requisites
 Make sure that enterprise console is installed on the linux server
 
 ## Steps
-1. Copy the below script to /etc/init.d on your Linux. Provide permission to execute. use sudo permissions if required and modify the ownership to the same user as the 
+1. Copy the below script to /etc/init.d on your Linux. Provide permission to execute. use sudo permissions to copy if required and then modify the ownership to the linux user that is used to install and run enterprise console
 ```
 cp platform-admin-service /etc/init.d/
 chmod +x platform-admin-service
